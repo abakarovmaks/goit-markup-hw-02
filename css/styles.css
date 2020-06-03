@@ -1,0 +1,79 @@
+:root {
+  --primaty-text-color: #212121;
+  --title-text-color-primary: #212121;
+  --title-text-color-secondary: #757575;
+  --accent-color: #2196f3;
+}
+
+/* Основные цвета на странице */
+body {
+  background-color: #ffffff;
+  color: var(--title-text-color-primary);
+}
+
+/* Хедер */
+.nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Логотип */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color-primary);
+}
+
+/* Навигация */
+.nav-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .item:hover,
+.nav-list .item:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .item {
+  text-decoration: none;
+}
+
+/* Адресс */
+
+.adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color-secondary);
+}
+
+.adress .item:hover,
+.adress .item:focus {
+  color: var(--accent-color);
+}
+
+.adress .item {
+  text-decoration: none;
+}
