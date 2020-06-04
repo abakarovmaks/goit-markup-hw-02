@@ -15,23 +15,36 @@ body {
   letter-spacing: 0.03em;
 }
 
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
 /* Header */
 .nav {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 /* Logo */
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
   text-decoration: none;
 }
 
@@ -78,10 +91,9 @@ body {
 /* Main */
 
 .main-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -96,7 +108,6 @@ body {
 
 .button.primary {
   color: var(--title-text-color-secondary);
-  letter-spacing: 0.06em;
 }
 
 .button.primary:hover,
@@ -166,4 +177,9 @@ body {
 
 .list .paragraph {
   color: var(--title-text-color-secondary);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.87;
 }
