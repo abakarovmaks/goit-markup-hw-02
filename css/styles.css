@@ -52,10 +52,6 @@ button {
   text-decoration: none;
 }
 
-.logo-web {
-  color: var(--accent-color);
-}
-
 .logo-studio {
   color: var(--title-text-color-primary);
 }
@@ -67,7 +63,8 @@ button {
 /* Navigation */
 
 .nav-list .item:hover,
-.nav-list .item:focus {
+.nav-list .item:focus,
+.logo-web {
   color: var(--accent-color);
 }
 
@@ -76,7 +73,8 @@ button {
   text-decoration: none;
 }
 
-.nav-list {
+.nav-list,
+.adress {
   list-style: none;
 }
 
@@ -90,10 +88,6 @@ button {
 .adress .item:hover,
 .adress .item:focus {
   color: var(--accent-color);
-}
-
-.adress {
-  list-style: none;
 }
 
 .adress-footer {
@@ -122,7 +116,9 @@ button {
   text-decoration: none;
 }
 
-.button.primary {
+.button.primary,
+.advantage-words,
+.list .text {
   color: var(--title-text-color-secondary);
 }
 
@@ -153,15 +149,9 @@ button {
   list-style: none;
 }
 
-.advantage-words {
-  color: var(--title-text-color-secondary);
-}
-
 /* Our team */
-.teamlist {
-  list-style: none;
-}
-
+.teamlist,
+.list,
 .teamlist .list {
   list-style: none;
 }
@@ -184,12 +174,8 @@ button {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
-}
-
 .list .customers {
-  color: var(--title-text-color-primary);
+  color: var(--title-text-color-secondary);
   text-decoration: none;
 }
 
@@ -198,10 +184,6 @@ button {
 .list .item {
   text-decoration: none;
   color: var(--title-text-color-primary);
-}
-
-.list .text {
-  color: var(--title-text-color-secondary);
 }
 
 .text {
